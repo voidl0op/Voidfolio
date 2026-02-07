@@ -1,0 +1,85 @@
+html {
+  background-color: #222435;
+}
+
+body {
+  margin-left: 2rem;
+}
+  
+header,
+h1 {
+  font-family: "Minecraft", sans-serif;
+  text-align: center;
+  font-size: 5rem;
+  vertical-align: text-top;
+  color: #81aaff;
+  margin-top: 1rem;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  text-shadow: 0 0 8px rgb(126, 176, 242, 0.8);
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+main {
+  font-family: "Fira Code", monospace;
+}
+
+main div {
+  margin-left: 2rem;
+}
+
+.preprecommand {
+  color: #bf4f4f;
+  text-align: left;
+  margin-left: 2rem !important;
+  text-shadow: 0 0 8px rgba(191, 79, 79, 0.8);
+}
+
+.precommand {
+  color: #4fa881;
+  text-align: left;
+  margin-left: 2rem;
+  text-shadow: 0 0 8px rgb(79, 168, 129, 0.8);
+}
+
+input:invalid {
+  outline: none;
+  box-shadow: none;
+  border-color: initial; 
+}
+
+.command {
+  font-family: "Fira Code", monospace;
+  outline: none;
+  background: none;
+  color: #4fa881;
+  border: none;
+  box-shadow: none;
+  text-shadow: 0 0 8px rgb(79, 168, 129, 0.8);
+  font-size: 1rem;
+  width: auto;
+}
+
+.output {
+  color: #4fa881;
+  font-family: "Fira Code", monospace;
+  margin-left: 2rem;
+  text-shadow: 0 0 8px rgb(79, 168, 129, 0.8);
+  white-space: pre-wrap;
+  user-select: text;
+  font-size: 1rem;
+}
+
+.preprecommand,
+.precommand, .command {
+  display: inline;
+  margin-left: 0;
+}
